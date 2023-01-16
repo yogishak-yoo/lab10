@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 18px;
+    padding: 0;
+}
+
+#tableSection {
+    font-size: 1.1em;
+}
+
+#tableSection table {
+    background-color: rgb(29, 170, 154);
+}
+
+#tableSection table, #tableSection td, #tableSection th{
+    border: 1px solid;
+}
+
+#tableSection th{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    border-color: black;
+}

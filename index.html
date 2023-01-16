@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB 10 app</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.3/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-route/1.8.3/angular-route.min.js" integrity="sha512-y1qD3hz/IAf8W4+/UMLZ+CN6LIoUGi7srWJ3r1R17Hid8x0yXe+1B5ZelkaL1Mjzedzu0Cg3HBvDG02SAgSzBw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+</head>
+<body style="background-color: rgb(31, 179, 179);">
+    
+    <div ng-app="myApp" class="mt-4 container">
+        <a href="#/"><button type="button" style="background-color: rgb(38, 133, 133); border-radius: 20px; padding: 14px;">View</button></a>
+        <a href="#create"><button type="button" style="background-color: rgb(38, 133, 133); border-radius: 20px; padding: 14px;">Create</button></a>
+        <a href="#delete"><button type="button" style="background-color: rgb(38, 133, 133); border-radius: 20px; padding: 14px;">Delete</button></a>
+        <a href="#update"><button type="button" style="background-color: rgb(38, 133, 133); border-radius: 20px; padding: 14px;">Update</button></a>
+        <a href="#search"><button type="button" style="background-color: rgb(38, 133, 133); border-radius: 20px; padding: 14px;">Search</button></a> <br>
+        <ng-view></ng-view>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
